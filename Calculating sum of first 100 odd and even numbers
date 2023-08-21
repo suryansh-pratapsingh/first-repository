@@ -14,6 +14,8 @@ int main() {
 
     printf("Sum of first 100 odd numbers: %d\n", oddSum);
     printf("Sum of first 100 even numbers: %d\n", evenSum);
+    printf("Sum of first 100 even numbers: %d\n", evenSum);
+    
 
     return 0;
 }
