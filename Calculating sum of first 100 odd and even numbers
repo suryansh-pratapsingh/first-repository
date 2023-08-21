@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    int oddSum = 0;
+    int evenSum = 0;
+
+    for (int i = 1; i <= 200; i++) {
+        if (i % 2 == 1) {
+            oddSum += i;
+        } else {
+            evenSum += i;
+        }
+    }
+
+    printf("Sum of first 100 odd numbers: %d\n", oddSum);
+    printf("Sum of first 100 even numbers: %d\n", evenSum);
+
+    return 0;
+}
